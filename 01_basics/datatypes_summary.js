@@ -37,3 +37,25 @@ const myFunction = function (){
 
 console.log(typeof heros);
 console.log(typeof myFunction )
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++
+// STACK(primitive) and HEAP(non-primitive
+
+let myYoutubename = "vinitasingh"
+let anothername = myYoutubename
+ anothername = "khushi" //because it is stored in stack : so it doesnot overwrites it just stores a copy and gives us the copy
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi:"upi@ybl"
+}
+let userTwo = userOne
+userTwo.email = "vini@gmail.com" //because it is stored in heap it gives the actual object so it is overwritten
+
+
+console.log(userTwo.email);
+console.log(userOne.email);
