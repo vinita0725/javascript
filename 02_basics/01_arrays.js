@@ -12,7 +12,7 @@ myArr.push(7)
 myArr.push(8)
 myArr.pop() // pops tge last element
 myArr.pop()
-myArr.unshift(9) //add elkement to the start
+myArr.unshift(9) //add element to the start
 myArr.shift() //removes the first elemnt
 
 // console.log(myArr);
